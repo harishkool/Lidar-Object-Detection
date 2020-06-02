@@ -50,7 +50,7 @@ std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT
 
     }
 
-    std::cout<<"Inside Separate Clouds"<<std::endl;
+    // std::cout<<"Inside Separate Clouds"<<std::endl;
 
     //Create PCL extract indices object
     pcl::ExtractIndices<PointT> extract;
@@ -59,8 +59,8 @@ std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT
     extract.setNegative(true);
     extract.filter(*obs);
 
-    // std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> segResult(obs, road);
-    std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> segResult(cloud, cloud);
+    std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> segResult(obs, road);
+    // std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> segResult(cloud, cloud);
     return segResult;
 }
 
@@ -70,11 +70,11 @@ std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT
 {
     // Time segmentation process
     auto startTime = std::chrono::steady_clock::now();
-	pcl::PointIndices::Ptr inliers;
-    // TODO:: Fill in this function to find inliers for the cloud.
+	// pcl::PointIndices::Ptr inliers;
+    // // TODO:: Fill in this function to find inliers for the cloud.
 
     pcl::ModelCoefficients::Ptr coefficients (new pcl::ModelCoefficients ());
-    // pcl::PointIndices::Ptr inliers (new pcl::PointIndices ());
+    pcl::PointIndices::Ptr inliers (new pcl::PointIndices ());
 
     //Create PCL segmentation object
     pcl::SACSegmentation<PointT> seg;
