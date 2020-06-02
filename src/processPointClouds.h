@@ -19,6 +19,10 @@
 #include <chrono>
 #include "render/box.h"
 
+#include "ransac3d_filter.h"
+#include "kdtree.h"
+#include "cluster.h"
+
 template<typename PointT>
 class ProcessPointClouds {
 public:
