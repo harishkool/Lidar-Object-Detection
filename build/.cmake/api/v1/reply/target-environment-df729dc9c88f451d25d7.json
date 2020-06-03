@@ -1,0 +1,355 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "environment"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories",
+			"include",
+			"find_external_library",
+			"find_package",
+			"add_definitions",
+			"set_property"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/local/lib/cmake/vtk-7.1/UseVTK.cmake",
+			"/usr/local/share/pcl-1.8/PCLConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 660,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 672,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "DISABLE_DAVIDSDK"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "DISABLE_DSSDK"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "DISABLE_ENSENSO"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "DISABLE_LIBUSB_1_0"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "DISABLE_OPENNI2"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "DISABLE_PCAP"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "DISABLE_PNG"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "DISABLE_RSSDK"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "EIGEN_USE_NEW_STDVECTOR"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "EIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "FLANN_STATIC"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/usr/local/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/local/include/pcl-1.8"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/include/ni"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "environment::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib -lboost_system -lboost_filesystem -lboost_thread -lpthread -lboost_date_time -lboost_iostreams -lboost_serialization -lboost_chrono -lboost_atomic -lboost_regex /usr/local/lib/libpcl_common.so /usr/local/lib/libpcl_octree.so -lOpenNI /usr/local/lib/libpcl_io.so -Wl,-Bstatic -lflann_cpp_s -Wl,-Bdynamic /usr/local/lib/libpcl_kdtree.so /usr/local/lib/libpcl_search.so /usr/local/lib/libpcl_sample_consensus.so /usr/local/lib/libpcl_filters.so /usr/local/lib/libpcl_visualization.so /usr/local/lib/libpcl_outofcore.so /usr/local/lib/libpcl_features.so /usr/local/lib/libpcl_keypoints.so /usr/local/lib/libpcl_ml.so /usr/local/lib/libpcl_segmentation.so /usr/local/lib/libpcl_stereo.so /usr/local/lib/libpcl_registration.so -lqhull /usr/local/lib/libpcl_surface.so /usr/local/lib/libpcl_recognition.so /usr/local/lib/libpcl_people.so /usr/local/lib/libpcl_tracking.so -lboost_system -lboost_filesystem -lboost_thread -lpthread -lboost_date_time -lboost_iostreams -lboost_serialization -lboost_chrono -lboost_atomic -lboost_regex -lqhull -lOpenNI -Wl,-Bstatic -lflann_cpp_s -Wl,-Bdynamic /usr/local/lib/libvtkFiltersSMP-7.1.so.1 /usr/local/lib/libvtkImagingStatistics-7.1.so.1 /usr/local/lib/libvtkDomainsChemistryOpenGL2-7.1.so.1 /usr/local/lib/libvtkDomainsChemistry-7.1.so.1 /usr/local/lib/libvtkIOVideo-7.1.so.1 /usr/local/lib/libvtkIOImport-7.1.so.1 /usr/local/lib/libvtkViewsContext2D-7.1.so.1 /usr/local/lib/libvtkFiltersHyperTree-7.1.so.1 /usr/local/lib/libvtkIOMovie-7.1.so.1 /usr/local/lib/libvtkoggtheora-7.1.so.1 /usr/local/lib/libvtkIOExport-7.1.so.1 /usr/local/lib/libvtkRenderingGL2PSOpenGL2-7.1.so.1 /usr/local/lib/libvtkgl2ps-7.1.so.1 /usr/local/lib/libvtkIOParallelXML-7.1.so.1 /usr/local/lib/libvtkFiltersParallelImaging-7.1.so.1 /usr/local/lib/libvtkIOPLY-7.1.so.1 /usr/local/lib/libvtkImagingMorphological-7.1.so.1 /usr/local/lib/libvtkInteractionImage-7.1.so.1 /usr/local/lib/libvtkRenderingImage-7.1.so.1 /usr/local/lib/libvtkFiltersGeneric-7.1.so.1 /usr/local/lib/libvtkIOInfovis-7.1.so.1 /usr/local/lib/libvtklibxml2-7.1.so.1 /usr/local/lib/libvtkGeovisCore-7.1.so.1 /usr/local/lib/libvtkFiltersTexture-7.1.so.1 /usr/local/lib/libvtkIOParallel-7.1.so.1 /usr/local/lib/libvtkIONetCDF-7.1.so.1 /usr/local/lib/libvtkIOTecplotTable-7.1.so.1 /usr/local/lib/libvtkIOEnSight-7.1.so.1 /usr/local/lib/libvtkRenderingVolumeOpenGL2-7.1.so.1 /usr/local/lib/libvtkImagingMath-7.1.so.1 /usr/local/lib/libvtkRenderingContextOpenGL2-7.1.so.1 /usr/local/lib/libvtkIOLSDyna-7.1.so.1 /usr/local/lib/libvtkRenderingLOD-7.1.so.1 /usr/local/lib/libvtkFiltersProgrammable-7.1.so.1 /usr/local/lib/libvtkIOMINC-7.1.so.1 /usr/local/lib/libvtkIOSQL-7.1.so.1 /usr/local/lib/libvtkIOExodus-7.1.so.1 /usr/local/lib/libvtkFiltersSelection-7.1.so.1 /usr/local/lib/libvtkFiltersFlowPaths-7.1.so.1 /usr/local/lib/libvtkViewsInfovis-7.1.so.1 /usr/local/lib/libvtkImagingStencil-7.1.so.1 /usr/local/lib/libvtkFiltersVerdict-7.1.so.1 /usr/local/lib/libvtkIOAMR-7.1.so.1 /usr/local/lib/libvtkFiltersPoints-7.1.so.1 /usr/local/lib/libpcl_common.so /usr/local/lib/libpcl_octree.so /usr/local/lib/libpcl_io.so /usr/local/lib/libpcl_kdtree.so /usr/local/lib/libpcl_search.so /usr/local/lib/libpcl_sample_consensus.so /usr/local/lib/libpcl_filters.so /usr/local/lib/libpcl_visualization.so /usr/local/lib/libpcl_outofcore.so /usr/local/lib/libpcl_features.so /usr/local/lib/libpcl_keypoints.so /usr/local/lib/libpcl_ml.so /usr/local/lib/libpcl_segmentation.so /usr/local/lib/libpcl_stereo.so /usr/local/lib/libpcl_registration.so /usr/local/lib/libpcl_surface.so /usr/local/lib/libpcl_recognition.so /usr/local/lib/libpcl_people.so /usr/local/lib/libpcl_tracking.so /usr/local/lib/libvtkproj4-7.1.so.1 /usr/local/lib/libvtkFiltersParallel-7.1.so.1 /usr/local/lib/libvtkjsoncpp-7.1.so.1 /usr/local/lib/libvtkIOGeometry-7.1.so.1 /usr/local/lib/libvtkRenderingOpenGL2-7.1.so.1 -lSM -lICE -lX11 -lXext -lXt /usr/local/lib/libvtkglew-7.1.so.1 /usr/local/lib/libvtksqlite-7.1.so.1 -lpthread /usr/local/lib/libvtkexoIIc-7.1.so.1 /usr/local/lib/libvtkNetCDF_cxx-7.1.so.1 /usr/local/lib/libvtkNetCDF-7.1.so.1 /usr/local/lib/libvtkViewsCore-7.1.so.1 /usr/local/lib/libvtkInteractionWidgets-7.1.so.1 /usr/local/lib/libvtkFiltersHybrid-7.1.so.1 /usr/local/lib/libvtkRenderingVolume-7.1.so.1 /usr/local/lib/libvtkInteractionStyle-7.1.so.1 /usr/local/lib/libvtkRenderingAnnotation-7.1.so.1 /usr/local/lib/libvtkImagingColor-7.1.so.1 /usr/local/lib/libvtkRenderingLabel-7.1.so.1 /usr/local/lib/libvtkFiltersImaging-7.1.so.1 /usr/local/lib/libvtkImagingGeneral-7.1.so.1 /usr/local/lib/libvtkImagingSources-7.1.so.1 /usr/local/lib/libvtkInfovisLayout-7.1.so.1 /usr/local/lib/libvtkFiltersModeling-7.1.so.1 /usr/local/lib/libvtkImagingHybrid-7.1.so.1 /usr/local/lib/libvtkIOImage-7.1.so.1 /usr/local/lib/libvtkDICOMParser-7.1.so.1 /usr/local/lib/libvtkmetaio-7.1.so.1 /usr/local/lib/libvtkpng-7.1.so.1 -lm /usr/local/lib/libvtktiff-7.1.so.1 /usr/local/lib/libvtkjpeg-7.1.so.1 -lm /usr/local/lib/libvtkChartsCore-7.1.so.1 /usr/local/lib/libvtkRenderingContext2D-7.1.so.1 /usr/local/lib/libvtkRenderingFreeType-7.1.so.1 /usr/local/lib/libvtkRenderingCore-7.1.so.1 /usr/local/lib/libvtkFiltersGeometry-7.1.so.1 /usr/local/lib/libvtkFiltersSources-7.1.so.1 /usr/local/lib/libvtkCommonColor-7.1.so.1 /usr/local/lib/libvtkfreetype-7.1.so.1 /usr/local/lib/libvtkInfovisCore-7.1.so.1 /usr/local/lib/libvtkFiltersExtraction-7.1.so.1 /usr/local/lib/libvtkFiltersGeneral-7.1.so.1 /usr/local/lib/libvtkFiltersStatistics-7.1.so.1 /usr/local/lib/libvtkImagingFourier-7.1.so.1 /usr/local/lib/libvtkalglib-7.1.so.1 /usr/local/lib/libvtkCommonComputationalGeometry-7.1.so.1 /usr/local/lib/libvtkImagingCore-7.1.so.1 /usr/local/lib/libvtkverdict-7.1.so.1 /usr/local/lib/libvtkhdf5_hl-7.1.so.1 /usr/local/lib/libvtkhdf5-7.1.so.1 -lm /usr/local/lib/libvtkFiltersAMR-7.1.so.1 /usr/local/lib/libvtkFiltersCore-7.1.so.1 /usr/local/lib/libvtkIOXML-7.1.so.1 /usr/local/lib/libvtkIOXMLParser-7.1.so.1 /usr/local/lib/libvtkexpat-7.1.so.1 /usr/local/lib/libvtkParallelCore-7.1.so.1 /usr/local/lib/libvtkIOLegacy-7.1.so.1 /usr/local/lib/libvtkIOCore-7.1.so.1 /usr/local/lib/libvtkzlib-7.1.so.1 /usr/local/lib/libvtkCommonExecutionModel-7.1.so.1 /usr/local/lib/libvtkCommonDataModel-7.1.so.1 /usr/local/lib/libvtkCommonTransforms-7.1.so.1 /usr/local/lib/libvtkCommonMisc-7.1.so.1 /usr/local/lib/libvtkCommonMath-7.1.so.1 /usr/local/lib/libvtkCommonSystem-7.1.so.1 /usr/local/lib/libvtkCommonCore-7.1.so.1 /usr/local/lib/libvtksys-7.1.so.1 -ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "environment",
+	"nameOnDisk" : "environment",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/environment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/render.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/processPointClouds.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

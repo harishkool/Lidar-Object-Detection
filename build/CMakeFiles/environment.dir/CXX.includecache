@@ -72,6 +72,10 @@ unordered_set
 Eigen/Geometry
 -
 
+/home/nagaharish/Downloads/Udacity/Sensor Fusion/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
+render.h
+/home/nagaharish/Downloads/Udacity/Sensor Fusion/SFND_Lidar_Obstacle_Detection/src/render/render.h
+
 /home/nagaharish/Downloads/Udacity/Sensor Fusion/SFND_Lidar_Obstacle_Detection/src/render/render.h
 pcl/visualization/pcl_visualizer.h
 -

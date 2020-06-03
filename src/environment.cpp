@@ -65,7 +65,7 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr& viewer)
   } 
 }
 
-void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessor, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud)
+void LidarStream(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessor, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud)
 {
   pcl::PointCloud<pcl::PointXYZI>::Ptr f_cloud = pointProcessor->FilterCloud(inputCloud, 0.25, Eigen::Vector4f (-10, -5, -2, 1), Eigen::Vector4f (25, 7, 2, 1));
 
@@ -133,7 +133,7 @@ int main (int argc, char** argv)
     viewer->removeAllShapes();
 
     inputCloudI = pointProcessorI->loadPcd((*streamIterator).string());
-    cityBlock(viewer, pointProcessorI, inputCloudI);
+    LidarStream(viewer, pointProcessorI, inputCloudI);
 
     streamIterator++;
     if(streamIterator == stream.end())
